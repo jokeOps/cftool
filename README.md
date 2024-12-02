@@ -38,10 +38,6 @@ The Cloudflare Tool (cftool) is a command-line utility written in Go that intera
   cftool -email your-email@example.com -key your-api-key -zone example.com -secure-level high
   ```
 
-## Error Handling
-
-The program will output error messages if any required flags are missing or if an invalid value is provided for a flag. It will also display usage information if no actions are specified.
-
 ## Dependencies
 
 - [Go](https://golang.org/)
@@ -59,7 +55,7 @@ The program will output error messages if any required flags are missing or if a
    cd cftool
    ```
 
-3. Get requires:
+3. Get dependencies:
    ```bash
    go mod tidy
    ```
