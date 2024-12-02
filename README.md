@@ -59,12 +59,17 @@ The program will output error messages if any required flags are missing or if a
    cd cftool
    ```
 
-3. Build the project:
+3. Get requires:
+   ```bash
+   go mod tidy
+   ```
+
+4. Build the project:
    ```bash
    go build -o cftool
    ```
 
-4. Run the tool using the examples provided above.
+5. Run the tool using the examples provided above.
 
 ## License
 
