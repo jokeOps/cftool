@@ -47,7 +47,7 @@ The Cloudflare Tool (cftool) is a command-line utility written in Go that intera
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cftool.git
+   git clone git@github.com:jokeOps/cftool.git
    ```
 
 2. Navigate to the project directory:
